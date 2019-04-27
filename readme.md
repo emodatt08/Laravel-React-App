@@ -19,7 +19,20 @@ php artisan key:generate
 npm run watch
 ```
 
-## Endpoints
+## React Router Endpoints
+
+### List all todos with links and meta
+``` bash
+GET /public/todos
+```
+### Get single todo item
+``` bash
+GET /public/todos/:id
+```
+
+
+
+## API Endpoints
 
 ### List all todos with links and meta
 ``` bash
