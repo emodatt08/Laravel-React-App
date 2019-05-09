@@ -37,8 +37,8 @@ export default class TodoInfo extends Component {
                 <div className="row justify-content-center">
                     <div className="col-md-8">
                         <div className="card"> 
-                            <div className="card-header"> <h1>Todo Information </h1></div>
-                            <h2>{this.state.post.title}  </h2> 
+                            <div className="card-header"><h1>Project Information</h1></div>
+                            <h2>{this.state.post.title}</h2> 
                             <p>{this.state.post.body}</p>
                         </div>
                     </div>
